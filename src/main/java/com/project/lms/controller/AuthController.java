@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.http.ResponseEntity;
-import com.project.lms.service.JwtUtil;
+import com.project.lms.Service.JwtUtil;
 import com.project.lms.payload.LoginRequest;
 import com.project.lms.payload.LoginResponse;
 

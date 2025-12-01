@@ -1,7 +1,7 @@
-package com.project.lms.service;
+package com.project.lms.Service;
 
 import com.project.lms.entity.User;
-import com.project.lms.repository.UserRepository;
+import com.project.lms.Repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

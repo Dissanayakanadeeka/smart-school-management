@@ -1,4 +1,4 @@
-package com.project.lms.security;
+package com.project.lms.Security;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +22,7 @@ public class SecurityConfig {
         http
             .csrf(AbstractHttpConfigurer::disable)
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/auth/login").permitAll()
+                .requestMatchers("/api/auth/login").permitAll()
                 .anyRequest().authenticated()
             )
             .sessionManagement(session -> session
